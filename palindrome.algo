@@ -1,0 +1,30 @@
+eALGORITHM palindrom
+VAR
+    i, kk: STRING;  // Use STRING type instead of CHAR
+
+   
+    s: INTEGER := 0;
+    array : ARRAY_OF STRING[R];
+
+BEGIN
+    Read(kk);
+    length(arr)=s
+    
+   FOR i = 0 TO length(arr) -1
+      WHILE (length(arr)=1 || length(arr)=0 || i=s-1) DO
+        if arr[i]==arr[length(arr)-1]
+        i+=1
+        s-=1
+        if i==s-1
+        Write("is a palinfrom")
+         
+
+        else 
+           Write("is not  palindrome")
+            END_IF;
+      END_WHILE;
+
+
+    END.
+       
+   
